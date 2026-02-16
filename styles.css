@@ -1,0 +1,42 @@
+body
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 83vh;
+	margin: 1px;
+}
+textarea
+{
+	height: 21px;
+	width: 287px;
+	margin-right: 1px;
+}
+button
+{
+	height: 27px;
+	width: 57px;
+}
+textarea, button
+{
+	font-size: 18px;
+	background-color: #171414;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	transition: 0.7s;
+	text-align: center;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+#email:hover
+{
+	background-color: lightyellow;
+	color: #171414;
+}
+button:hover
+{
+	background-color: lightgreen;
+	color: #171414;
+}
